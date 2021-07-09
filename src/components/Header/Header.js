@@ -3,16 +3,20 @@ import {Col, Container, Image, Row} from "react-bootstrap";
 import logo from '../../assets/images/Home/logo_rimac.svg';
 import phone from '../../assets/images/Home/phone.png'
 import './Header.css'
+import {useHistory} from "react-router-dom";
 
 const Header = (props) => {
     const color = props.background ? props.background : '';
     const border = props.background ? '1px solid #E4E8F7' : '';
+    const history = useHistory();
     return (
         <>
             <Container className="header--position" fluid style={{ background: color, borderBottom: border}}>
                 <Row className="align-items-center header--altura">
                     <Col md={4}>
-                        <Image height={16} src={logo}></Image>
+                        <a onClick={() => history.push('/')}>
+                            <Image height={16} src={logo}></Image>
+                        </a>
                     </Col>
                     <Col md={{span: 4, offset: 4}} className="text-right">
                         <p className="header__pregunta--estilo m-0">

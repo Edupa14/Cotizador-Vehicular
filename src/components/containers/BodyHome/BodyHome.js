@@ -75,7 +75,7 @@ const BodyHome = () => {
                                             className="home__checkbox--span">Términos y Condiciones.</span></Checkbox>
                                 </div>
                                 <div className="mt-4">
-                                    <Button onClick={() => history.push('/arma-tu-plan')}type="danger" shape="round"
+                                    <Button onClick={() => history.push('/arma-tu-plan')} type="danger" shape="round"
                                             size={56} className="home__button">
                                         COTÍZALO
                                     </Button>
