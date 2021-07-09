@@ -1,16 +1,9 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
+import AppRouter from "./routers/AppRouter";
 
 const App = () => {
     return (
-        <>
-            <Container>
-                <Row>
-                    <Col xs={6}>Hola mundo</Col>
-                    <Col xs={6}>Hola mundo</Col>
-                </Row>
-            </Container>
-        </>
+            <AppRouter />
     )
 }
 

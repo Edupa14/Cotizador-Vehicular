@@ -1,0 +1,9 @@
+.inputdoc--border__right{
+    border-radius: 0 4px 4px 0;
+}
+.inputdoc--border__left{
+    border-radius: 0 4px 4px 0;
+}
+.ant-select-arrow{
+    color:red;
+}

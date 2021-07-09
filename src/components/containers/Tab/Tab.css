@@ -1,0 +1,16 @@
+svg{
+  vertical-align: baseline!important;
+}
+
+.home__texto--modelo{
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 28px;
+  color:#494F66;
+}
+.home__right--lista{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #676F8F;
+  line-height: 24px;
+}

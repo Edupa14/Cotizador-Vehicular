@@ -1,0 +1,36 @@
+.gracias__titulo{
+    font-family: Lato;
+    font-size: 36px;
+    color: #EF3340;
+    line-height: 48px;
+}
+.gracias__titulooscuro{
+    font-family: Lato;
+    font-size: 36px;
+    color: #494F66;
+    line-height: 48px;
+}
+
+.gracias__texto{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 16px;
+    color: #676F8F;
+    line-height: 28px;
+}
+.gracias__texto--span{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: #676F8F;
+    line-height: 28px;
+}
+.gracias__button{
+    font-family: Lato;
+    font-width: 700;
+    font-size: 14px;
+    background-color: #EF3340;
+    border-radius: 8px!important;
+    height: 56px!important;
+    width: 255px;
+}
