@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Tabs} from 'antd';
 
 import {Collapse} from 'antd';
-import {Button, Tooltip} from 'antd';
+import {Button} from 'antd';
 import {PlusOutlined, MinusOutlined} from '@ant-design/icons';
 import './Tab.css'
 
@@ -47,14 +47,18 @@ const Tab = () => {
                                     handlerLlanta(true)
                                 }} type="link">AGREGAR</Button>
                                 <p className="home__right--lista mt-4">
-                                    He salido de casa a las cuatro menos cinco para ir a la academia de ingles de mi pueblo (Sant Cugat, al lado de Barcelona) con mi bici, na llego a la academia que está en el centro del pueblo en una plaza medio-grande y dejo donde siempre la bici atada con una pitón a un sitio de esos de poner las bicis
+                                    He salido de casa a las cuatro menos cinco para ir a la academia de ingles de mi pueblo
+                                    (Sant Cugat, al lado de Barcelona) con mi bici, na llego a la academia que está en el
+                                    centro del pueblo en una plaza medio-grande y dejo donde siempre la bici atada con una
+                                    pitón a un sitio de esos de poner las bicis
                                     y mucho más
                                 </p>
                             </Panel>
                             <Panel className="home__texto--modelo" header="Choque y/o pasarte la luz roja " key="2">
                                 <Button onclick={() => {
                                     handlerChoque(false)
-                                }} type="primary" type="solid" shape="circle" style={{}} icon={<MinusOutlined/>}/>
+                                }} type="primary" type="solid" shape="circle" style={{svg: 'baseline!important'}}
+                                        icon={<MinusOutlined/>}/>
                                 <Button onclick={() => {
                                     handlerChoque(false)
                                 }} type="link">QUITAR</Button>

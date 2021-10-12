@@ -1,5 +1,5 @@
 import React from "react";
-import {Input, Row, Select, InputNumber, AutoComplete, Cascader} from 'antd';
+import {Input, Select, AutoComplete} from 'antd';
 import './InputDoc.css'
 
 

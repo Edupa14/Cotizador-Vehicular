@@ -1,5 +1,4 @@
 {
-  "homepag": "http://edupa14.github.io/Cotizador-Deploy/",
   "name": "cotizador-app",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "source-map-loader": "^1.0.0",
     "gh-pages": "^3.2.3",
     "react-router-dom": "^5.2.0"
   }

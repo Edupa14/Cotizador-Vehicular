@@ -1,6 +1,4 @@
 import React from "react";
-import {Timeline} from 'antd';
-import {ClockCircleOutlined} from '@ant-design/icons';
 import './TimeLines.css';
 const TimeLines = () => {
     return (
